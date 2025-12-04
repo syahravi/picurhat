@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   name: 'PI Curhat',
   tagline: 'Ruang Aman untuk Cerita & Healing',
-  whatsappNumber: '6281234567890', // TODO: Replace with actual WhatsApp number
+  whatsappNumber: '6285183370979', // TODO: Replace with actual WhatsApp number
   email: 'hello@picurhat.com',
   instagram: '@picurhat',
   instagramUrl: 'https://instagram.com/picurhat',
@@ -20,6 +20,7 @@ export const PRICING_PLANS = [
       'Sesi via WhatsApp Call/Video',
       'Fleksibel jadwal',
       'Confidential',
+      'Follow-up notes',
     ],
     highlight: true,
   },
@@ -47,6 +48,10 @@ export const TIME_SLOTS = [
   '14:00 - 15:00',
   '15:00 - 16:00',
   '16:00 - 17:00',
+  '17:00 - 18:00',
+  '18:00 - 19:00',
+  '19:00 - 20:00',
+  '20:00 - 21:00',
 ] as const;
 
 export const VALUE_PROPS = [
@@ -70,17 +75,32 @@ export const VALUE_PROPS = [
 export const TESTIMONIALS = [
   {
     id: 1,
-    image: '/images/testimonial-1.jpg',
+    image: '/images/testimonial-1.png',
     alt: 'Testimonial from client via WhatsApp',
   },
   {
     id: 2,
-    image: '/images/testimonial-2.jpg',
+    image: '/images/testimonial-2.jpeg',
     alt: 'Testimonial from client via WhatsApp',
   },
   {
     id: 3,
-    image: '/images/testimonial-3.jpg',
+    image: '/images/testimonial-3.jpeg',
+    alt: 'Testimonial from client via WhatsApp',
+  },
+  {
+    id: 4,
+    image: '/images/testimonial-4.jpeg',
+    alt: 'Testimonial from client via WhatsApp',
+  },
+  {
+    id: 5,
+    image: '/images/testimonial-5.jpeg',
+    alt: 'Testimonial from client via WhatsApp',
+  },
+  {
+    id: 6,
+    image: '/images/testimonial-6.jpeg',
     alt: 'Testimonial from client via WhatsApp',
   },
 ] as const;
@@ -104,7 +124,7 @@ export const FAQ_ITEMS = [
   },
   {
     question: 'Apa saja metode pembayaran yang tersedia?',
-    answer: 'Kami menerima pembayaran melalui transfer bank, e-wallet (OVO, GoPay, DANA), dan QRIS. Detail pembayaran akan diberikan setelah konfirmasi booking.',
+    answer: 'Kami menerima pembayaran melalui transfer bank, e-wallet (Shopeepay, GoPay, DANA), dan QRIS. Detail pembayaran akan diberikan setelah konfirmasi booking.',
   },
   {
     question: 'Apa yang harus saya persiapkan untuk sesi pertama?',
@@ -112,7 +132,7 @@ export const FAQ_ITEMS = [
   },
   {
     question: 'Bagaimana jika saya dalam kondisi krisis atau darurat?',
-    answer: 'Jika kamu dalam kondisi krisis atau darurat mental health, sebaiknya segera menghubungi layanan darurat psikologi seperti hotline crisis (119 ext 8) atau pergi ke rumah sakit terdekat. PI Curhat lebih cocok untuk konseling non-krisis dan dukungan emosional sehari-hari.',
+    answer: 'Jika kamu dalam kondisi krisis atau darurat mental health, sebaiknya segera menghubungi layanan darurat psikologi seperti hotline crisis (119) atau pergi ke rumah sakit terdekat. PI Curhat lebih cocok untuk konseling non-krisis dan dukungan emosional sehari-hari.',
   },
   {
     question: 'Apakah saya bisa request konselor?',

@@ -35,7 +35,7 @@ export function Testimonials() {
             Beberapa Review Klien Aku
           </h2>
           <p className="text-lg text-[var(--color-text-light)]">
-            FYI: Aku buka jasa curhat sejak Juni 2023
+            FYI: Aku buka jasa curhat sejak Juni 2023 :))
           </p>
         </div>
 
@@ -46,14 +46,13 @@ export function Testimonials() {
               {TESTIMONIALS.map((testimonial) => (
                 <div key={testimonial.id} className="flex-[0_0_100%] min-w-0 px-4">
                   <div className="relative w-full aspect-[9/16] max-w-md mx-auto bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center">
-                    {/* Placeholder */}
+                    {/* Placeholder
                     <div className="text-center p-8">
                       <p className="text-gray-600 mb-2 font-semibold">Testimonial Screenshot</p>
                       <p className="text-sm text-gray-500">
                         Add image at: {testimonial.image}
                       </p>
-                    </div>
-                    {/* Uncomment when images are added:
+                    </div> */}
                     <Image
                       src={testimonial.image}
                       alt={testimonial.alt}
@@ -61,7 +60,6 @@ export function Testimonials() {
                       className="object-contain rounded-lg"
                       sizes="(max-width: 768px) 100vw, 50vw"
                     />
-                    */}
                   </div>
                 </div>
               ))}
@@ -92,7 +90,7 @@ export function Testimonials() {
           </p>
           <div className="flex justify-center items-center gap-2 text-[var(--color-teal)] font-semibold">
             <Star size={20} fill="currentColor" />
-            <span>4.9/5 dari 100+ sesi konseling</span>
+            <span>5/5 dari 100+ sesi konseling</span>
           </div>
         </div>
       </div>

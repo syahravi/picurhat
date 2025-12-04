@@ -78,7 +78,7 @@ export function Hero() {
 
           {/* Right: Hero Image */}
           <div className="relative w-full aspect-square lg:aspect-auto lg:h-[600px]">
-            {/* Placeholder */}
+            {/* Placeholder
             <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-teal)] to-[var(--color-blue-gray)] rounded-2xl flex items-center justify-center shadow-2xl">
               <div className="text-center text-white p-8">
                 <MessageCircle size={64} className="mx-auto mb-4" />
@@ -87,8 +87,7 @@ export function Hero() {
                   Add image at: {HERO_CONTENT.image}
                 </p>
               </div>
-            </div>
-            {/* Uncomment when image is added:
+            </div> */}
             <Image
               src={HERO_CONTENT.image}
               alt="Counseling session"
@@ -97,7 +96,7 @@ export function Hero() {
               sizes="(max-width: 768px) 100vw, 50vw"
               priority
             />
-            */}
+
 
             {/* Floating Badge */}
             <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-4 animate-float">

@@ -168,9 +168,9 @@ Terima kasih!`;
                 </p>
                 <Button
                   onClick={handleDirectWhatsApp}
-                  variant="secondary"
+                  variant="primary"
                   size="md"
-                  className="w-full bg-white text-[var(--color-teal)] hover:bg-gray-100"
+                  className="w-full"
                 >
                   <MessageCircle size={18} className="mr-2" />
                   Chat WhatsApp

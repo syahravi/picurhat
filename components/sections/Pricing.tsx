@@ -26,9 +26,8 @@ export function Pricing() {
               key={plan.id}
               padding="lg"
               hover
-              className={`relative ${
-                plan.highlight ? 'border-4 border-[var(--color-coral)]' : ''
-              }`}
+              className={`relative ${plan.highlight ? 'border-4 border-[var(--color-coral)]' : ''
+                }`}
             >
               {/* Badge */}
               {'badge' in plan && plan.badge && (
@@ -90,7 +89,7 @@ export function Pricing() {
         {/* Additional Info */}
         <div className="mt-12 text-center">
           <p className="text-[var(--color-text-light)]">
-            Pembayaran melalui transfer bank, e-wallet (OVO, GoPay, DANA), atau QRIS
+            Pembayaran melalui transfer bank, e-wallet (Shopeepay, GoPay, DANA), atau QRIS
           </p>
         </div>
       </div>

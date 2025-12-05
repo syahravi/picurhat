@@ -2,7 +2,7 @@ export const SITE_CONFIG = {
   name: 'PI Curhat',
   tagline: 'Ruang Aman untuk Cerita & Healing',
   whatsappNumber: '6285183370979', // TODO: Replace with actual WhatsApp number
-  email: 'hello@picurhat.com',
+  email: 'halo@picurhat.my.id',
   instagram: '@picurhat',
   instagramUrl: 'https://instagram.com/picurhat',
   address: 'Jakarta, Indonesia',

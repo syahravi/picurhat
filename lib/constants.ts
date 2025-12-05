@@ -108,7 +108,7 @@ export const TESTIMONIALS = [
 export const FAQ_ITEMS = [
   {
     question: 'Apa itu PI Curhat?',
-    answer: 'PI Curhat adalah layanan konseling psikologi online yang memberikan ruang aman untuk kamu berbagi cerita dan mendapatkan dukungan profesional dari mahasiswa Bimbingan dan Konseling yang sedang belajar teknik psikologi konseling.',
+    answer: 'PI (Positive Impact) Curhat adalah layanan konseling psikologi online yang memberikan ruang aman untuk kamu berbagi cerita dan mendapatkan dukungan profesional dari mahasiswa Bimbingan dan Konseling yang sedang belajar teknik psikologi konseling.',
   },
   {
     question: 'Bagaimana cara booking sesi konseling?',
